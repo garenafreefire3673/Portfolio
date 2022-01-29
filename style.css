@@ -1,0 +1,103 @@
+body {
+    text-align:center;
+    padding-top:800px ;
+    margin-top:0px;
+    
+}
+#welcome {
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:linear-gradient(#33C4FF 0%, #4633FF 100%) ;
+    z-index:9;
+    width:100%;
+    height:100%;
+    display:table;
+    color:white;
+
+}
+#profile {
+    width:400px;
+    border-radius:50%;
+    border:grey 5px solid;
+    margin:30px;
+    height:350px;
+
+}
+h1 {
+    font-size:40px;
+  
+}
+h2 {
+    font-size:30px;
+    
+}
+#name {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing:20px;
+}
+.inner {
+    display:table-cell;
+    vertical-align:middle;
+}
+.menu {
+    top:0px;
+    margin-top:0px;
+    height:40px;
+    background-color:white;
+    position:fixed;
+    z-index: 9999;
+ width:100%;
+    list-style:none;
+    cursor :pointer;
+
+}
+.links {
+    display:inline;
+padding:1px;
+margin:10px;
+font-size: 25 ;
+font-family:fantasy;
+}
+.links:hover {
+    font-size:30px;
+    background-color:whitesmoke;
+    padding:10px;
+}
+#bio {
+    padding-top: 150px;
+    text-align:center;
+
+}
+.line {
+    background-color:black;
+    width:100px;
+    height:10px;
+    margin:10px auto;
+
+
+}
+P {
+    max-width:1000px;
+    margin:20px auto;
+    line-height:2;
+    font-size:20px;
+}
+.articles {
+    font-size:30px;
+    text-decoration:none;
+}
+.articles:hover {
+    color:coral;
+}
+.contact1 h3 {
+    display:inline;
+
+}
+.contact1 i {
+    font-size:25px;
+}
+.contact1 iframe {
+    width:70%;
+    float:left;
+}
